@@ -5,7 +5,7 @@ export default () => {
 
     const clickedChild = () => {
         console.log('child changed')
-        setChildCnt(childCnt = 1);
+        setChildCnt(childCnt + 1);
     };
 
     console.log('child rendered');
